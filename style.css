@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff8f0;
+    color: #333;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #ff7043;
+    color: white;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 120px;
+    border-radius: 10px;
+  }
+  
+  .slogan {
+    font-size: 1.2em;
+    margin-top: 8px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .info {
+    font-size: 1.1em;
+    margin: 20px 0;
+  }
+  
+  .entrega {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #e64a19;
+  }
+  
+  .botao {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 14px 28px;
+    background-color: #25D366;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao:hover {
+    background-color: #1ebe5b;
+  }
+  
+  .botao i {
+    margin-right: 8px;
+  }
+  
+  .galeria {
+    margin-top: 30px;
+  }
+  
+  .galeria img {
+    width: 90%;
+    max-width: 400px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  footer {
+    background-color: #ff7043;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+  }
+  
+  .historia {
+    padding: 30px 20px;
+    background-color: #fff3e0;
+    color: #444;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+  
+  .historia h2 {
+    text-align: center;
+    color: #e64a19;
+  }
+  
+  .mapa {
+    padding: 30px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .mapa h2 {
+    text-align: center;
+    color: #e64a19;
+  }
+  
+  /* Responsivo para celulares */
+@media (max-width: 600px) {
+    header, .historia, .mapa {
+      padding: 15px;
+    }
+  
+    .logo {
+      width: 90px;
+    }
+  
+    .slogan {
+      font-size: 1em;
+    }
+  
+    .botao {
+      font-size: 1em;
+      padding: 12px 20px;
+    }
+  
+    .galeria img {
+      width: 100%;
+    }
+  
+    .historia, .mapa {
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .historia p, .mapa p {
+      text-align: left;
+      font-size: 0.95em;
+    }
+  }
+  
